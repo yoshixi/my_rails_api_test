@@ -1,0 +1,2 @@
+class MasterUser < ApplicationRecord
+end
