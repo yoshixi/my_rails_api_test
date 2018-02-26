@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 追加した機能
 
-Things you may want to cover:
+- devise_token_authによるsocial account 複数ログイン
+https://github.com/lynndylanhurley/devise_token_auth
 
-* Ruby version
+### master_users
 
-* System dependencies
+| column     | type        | restriction  |
+|:-----------|------------:|:------------:|
+| id         | int         |              |
+| created_at | timestamp   |              |
+| updated_at | timestamp   |              |
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### users
